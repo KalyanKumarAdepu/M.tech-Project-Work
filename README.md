@@ -6,6 +6,10 @@ Steam turbine blades made of Nickel-Chrome alloy 625 (Inconel 625) operate in hi
 
 # Why is simulation necessary?
 Simulation is a cost-effective tool that helps analyze complex systems and processes, finds issues early on, and reduces development costs. It reduces risks, optimizes designs, predicts system performance, and informs decisions, thus optimizing productivity. It speeds up development, helps professionals train safely, and explores "what-if" scenarios. Scientists use it to validate scientific concepts and study inaccessible environments.
-# Challenges encountered during simulation work. 
+
+# Major Challenges encountered during simulation work. 
+### 1) Choosing a Simulation Software for Conventional Micro drilling.
+### 2) Learning Conventional Micro drilling simulation in Deform 3D software.
+### 3) Differences in Jhonson Cook and Modified Jhonson Cook algorithms over Nickel Chrome alloy 625 (Inconel 625).
 # Problems with simulation
 # Differences in practical vs simulation
