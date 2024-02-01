@@ -15,7 +15,7 @@ At first, I was unsure which software to use. Some PhD students recommended ANSY
 There are two ways of learning. The first is by being told what to do and what not to do by someone else, based on their experience. The second is through trial and error, which requires more time and effort. In my case, I only had the second option available. It took me over two months to get started, as I was only given access to a computer with 8GB RAM and an Intel Core i7 model. Each simulation took over 16 hours to complete. However, after a few days, I received support from the Deform 3D team. They suggested using adaptive meshing, which involved selecting a specific region for machining in both the workpiece and micro-drill bit. While this approach was time-consuming, it reduced the simulation time to approx.13 hours.
 
 ### 3) Differences in Jhonson Cook and Modified Jhonson Cook algorithms over Nickel Chrome alloy 625 (Inconel 625) for simulation.
-Simulation depends on the algorithm and that algorithm is called as Jhonson Cook algorithm for machining. This algorithm requires certain parameters for simulation work and those parameters are different for different metals which are obtained by the Orthogonal machining process
+The simulation process relies on an algorithm known as the Johnson-Cook algorithm for machining. This algorithm necessitates specific parameters for simulation, and these parameters vary for different metals, which are acquired through the Orthogonal machining process.
 # Observations
 1) The main cause of the rise in temperature, stress, etc., is the impact of feed rate.
 2) The material model is crucial to the simulation process.
