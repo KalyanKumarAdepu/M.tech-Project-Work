@@ -9,8 +9,10 @@ Simulation is a cost-effective tool that helps analyze complex systems and proce
 
 # Major Challenges encountered during simulation work. 
 ### 1) Selecting a Simulation Software for Conventional Micro-Drilling.
-       
+At first, I was unsure which software to use. Some PhD students recommended ANSYS (Explicit Dynamics). Although we can build a workpiece model in ANSYS, I decided to use CATIA software to develop a complex Micro drill bit. To use the Micro drill bit model in ANSYS, I converted the CATIA model to an SRT.file. However, I later chose Deform 3D software as it is more compatible than ANSYS. Deform 3D is better suited for providing insights into material deformation, tool wear, and chip formation. 
+
 ### 2) Learning Conventional Micro drilling simulation in Deform 3D software.
+
 ### 3) Differences in Jhonson Cook and Modified Jhonson Cook algorithms over Nickel Chrome alloy 625 (Inconel 625) for simulation.
 
 # Observations
