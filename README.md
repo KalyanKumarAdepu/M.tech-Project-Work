@@ -12,6 +12,7 @@ Simulation is a cost-effective tool that helps analyze complex systems and proce
 At first, I was unsure which software to use. Some PhD students recommended ANSYS (Explicit Dynamics). Although we can build a workpiece model in ANSYS, I decided to use CATIA software to develop a complex Micro drill bit. To use the Micro drill bit model in ANSYS, I converted the CATIA model to an SRT.file. However, I later chose Deform 3D software as it is more compatible than ANSYS. Deform 3D is better suited for providing insights into material deformation, tool wear, and chip formation. 
 
 ### 2) Learning Conventional Micro drilling simulation in Deform 3D software.
+There are two ways of learning. The first is by being told what to do and what not to do by someone else, based on their experience. The second is through trial and error, which requires more time and effort. In my case, I only had the second option available. It took me over two months to get started, as I was only given access to a computer with 8GB RAM and an Intel Core i7 model. Each simulation took over 16 hours to complete. However, after a few days, I received support from the Deform 3D team. They suggested using adaptive meshing, which involved selecting a specific region for machining in both the workpiece and micro-drill bit. While this approach was time-consuming, it reduced the simulation time to 13 hours.
 
 ### 3) Differences in Jhonson Cook and Modified Jhonson Cook algorithms over Nickel Chrome alloy 625 (Inconel 625) for simulation.
 
