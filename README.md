@@ -9,9 +9,30 @@ Simulation is a cost-effective tool that helps analyze complex systems and proce
 
 # Major Challenges encountered during simulation work. 
 ### 1) Selecting a Simulation Software for Conventional Micro-Drilling.
+       
 ### 2) Learning Conventional Micro drilling simulation in Deform 3D software.
 ### 3) Differences in Jhonson Cook and Modified Jhonson Cook algorithms over Nickel Chrome alloy 625 (Inconel 625) for simulation.
 
 # Observations
+1) The main cause of the rise in temperature, stress, etc., is the impact of feed rate.
+2) The material model is crucial to the simulation process.
+3) Due to adiabatic heating, increasing spindle speeds cause the temperature to rise and axial force on the tool to decrease.
+4) The modified Johnson-Cook model gives acceptable results compared to the normal Johnson-Cook model. 
+
 # Limitations
+1) The size of the micro drill bit has a direct impact on the size of the workpiece. The size of the workpiece should be 20% to 50% larger than the size of the micro drill 
+   bit for chip removal. Additionally, the rpm for chip removal should be high.
+2) Due to tool translational motion, the entire deformed material moves along the -ve Z direction if the Velocity boundary condition of the workpiece is not fixed in the Z 
+   direction.
+3) We cannot notice the burr formation on the exit side if the workpiece's velocity boundary condition is fixed in the Z direction.
+4) Large-sized workpieces can make adaptive meshing difficult. And the material removal from the workpiece is not visible to us.
+5) If we select an elastic or elastoplastic material type, the simulation will take longer to run and chip removal will be more challenging.
+6) Since Deform3D is primarily used to calculate values for stress, strain, temperature, and strain rate, we cannot expect the hole quality. 
+7) Simulated objects are thought to be made of the ideal material, free of any strain-hardening elements or residual stresses. 
+
 # Future Work
+1) If the simulation work's results coincide with those of the experiment, we can use the simulation technique by changing the parameters, which is safer than the actual 
+   work and less expensive.
+2) Deform 3D software needs to be improved to detect chips in huge workpieces for the micro-drilling process.
+
+
